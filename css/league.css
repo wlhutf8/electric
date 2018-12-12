@@ -1,0 +1,1032 @@
+@charset "utf-8";
+
+/*********************************媒体查询样式***********************************************/
+    .service{
+        width:100%;
+    }
+    .streamer{
+        width:100%;
+        height:25rem;
+        background: url("../img/201807101633194187.jpg") no-repeat center center;
+        background-size: cover;
+    }
+
+
+    /**********************营销优势部分样式*************************/
+    .league{
+        width:100%;
+    }
+    .idea_top{
+        width:100%;
+        text-align: center;
+        margin-top: 4rem;
+        /*border: 1px solid red;*/
+    }
+    .idea_title{
+        width:60%;
+        margin: 0 auto;
+    }
+
+    .idea_title{
+        text-align: center;
+        line-height: 2.5rem;
+    }
+    .idea_title>h4{
+        font-size: 2em;
+        color:#666666;
+        letter-spacing: 5px;
+    }
+    .idea_title>p{
+        font-size: 0.8em;
+        color:#999999;
+    }
+
+
+    .marketing,.marketing_bottom{
+        width:100%;
+    }
+    .marketing_bottom{
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+    }
+    .advantage{
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    .advantage>p{
+        font-size: 1.8em;
+        color:#D71F3F;
+    }
+    .advantage,.advantage_list{
+        width:80%;
+        margin: 0 auto;
+    }
+
+    .advantage_list>ul{
+        width:100%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 3rem;
+        padding-bottom: 2.5rem;
+        border-bottom:1px solid #DDDDDD;
+    }
+    .li_one{
+        width:45%;
+        text-align: right;
+        text-align: -webkit-right;
+    }
+    .dual {
+        text-align: left;
+    }
+    .advantage_img{
+        width:27rem;
+    }
+    .advantage_img>img{
+        width:100%;
+        height:23rem;
+    }
+    .li_two{
+        width:55%;
+        padding-left: 2rem;
+    }
+    .advantage_text1,.advantage_text2{
+        width:100%;
+    }
+    .advantage_text2{
+        margin-top: 1.5rem;
+    }
+    .advantage_text1>h3{
+        font-size: 2em;
+        color:#D81E43;
+    }
+    .advantage_text1>p{
+        font-size: 0.5em;
+        color:#969696;
+    }
+    .text_one+.text_one{
+        margin-top: 1.5rem;
+    }
+    .text_one>h5{
+        font-size: 1em;
+        color:#434343;
+        padding-bottom: 0.4rem;
+    }
+    .text_one>p{
+        font-size: 0.8em;
+        color:#969696;
+        line-height: 1.5rem;
+    }
+    .advantage_list>ul:nth-child(2)>.li_two,.advantage_list>ul:nth-child(4)>.li_two,.advantage_list>ul:nth-child(6)>.li_two{
+        text-align: right;
+        padding-left: 0rem !important;
+        padding-right: 2rem;
+    }
+
+
+    /**************************品牌优势部分样式*******************************/
+    .brand{
+        width:100%;
+    }
+    .brand_logo{
+        width:100%;
+    }
+    .brand_text,.brand_ul{
+        width:80%;
+        margin: 0rem auto;
+        /*border:1px solid red;*/
+    }
+    .brand_text{
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .brand_text>p{
+        font-size:0.8em;
+        color:#969696;
+    }
+    .brand_ul{
+        display:flex;
+        justify-content: center;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+    .brand_ul>li{
+        width:16%;
+        text-align: center;
+    }
+    .brand_ul>li:nth-child(1),.brand_ul>li:nth-child(2),.brand_ul>li:nth-child(3),.brand_ul>li:nth-child(4),.brand_ul>li:nth-child(5){
+        border-right:1px solid #DDDDDD;
+    }
+
+
+    /*************************市场活动部分样式******************************/
+    .activity{
+        width:100%;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        background: #FAFAFA;
+    }
+    .activity_list{
+        width:80%;
+        margin: 2rem auto;
+    }
+    .activity_hidden{
+        display:none;
+    }
+    /*********插件样式*********/
+    .box {
+        width: 100%;
+        /* height: 100px; */
+        position: relative;
+        margin: 0 auto;
+    }
+    .box_list{
+        margin: 0 auto !important;
+    }
+
+    #roll{
+        width: 200%;
+        /*height: 22rem;*/
+    }
+    #roll dd{
+        width: 271px;
+        /*height: 98px;*/
+        float: left;
+       padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    #roll dd:hover #roll dd>img{
+        box-shadow: 0px 0px 18px 0px;
+        transform: translateY(0.5);
+        transition: all 0.5s ease;
+    }
+    #roll dd>img{
+        width:100%;
+    }
+
+    #roll dd>p{
+        font-size: 0.9em;
+        color:#333333;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background: #ffffff;
+        padding-left: 1rem;
+    }
+    .box span{
+        position: absolute;
+        bottom: -26%;
+        left:42%;
+        display: inline-block;
+        width: 50px;
+        text-align: center;
+        cursor: pointer;
+        z-index: 90;
+        color: #fff;
+        transition: all 0.5s ease;
+    }
+    .box span:hover{
+        background: #D7203F;
+        transition: all 0.5s ease;
+    }
+    .box>.next,.box>.prev{
+        width:3rem;
+        line-height: 3rem;
+        border-radius: 50%;
+        background: #DBDBDB;
+    }
+    .box >.prev>img{
+        margin-top: -0.4rem;
+    }
+    .box>.next>img{
+        transform: rotate(180deg);
+    }
+    .box .next{
+        right: 42%;
+        left:auto;
+    }
+
+
+
+
+
+    /************************加盟要求部分样式***********************************/
+    .require{
+        width:100%;
+        padding-bottom: 5rem;
+    }
+    .require_list{
+        width:100%;
+        margin-top: 2rem;
+    }
+    .require_list>ul{
+        width:80%;
+        margin: 0 auto;
+        display:flex;
+        justify-content: space-between;
+        /*border:1px solid red;*/
+    }
+    .require_list>ul>li{
+        width:14%;
+    }
+    .require_top,.require_bottom{
+        width:100%;
+        text-align: center;
+    }
+    .circle{
+        width:7rem;
+        height: 7rem;
+        border-radius: 50%;
+        position: relative;
+        margin: 0 auto;
+        border: 1px solid #B6B6B6;
+    }
+    .circle:hover{
+        background: #D71F3F;
+    }
+    .join{
+        background: url("../img/ico2.png") no-repeat;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top:0;
+        left:0;
+        z-index: 3;
+        cursor: pointer;
+    }
+    .join:hover{
+        background: url("../img/ico1.png") no-repeat;
+    }
+
+    .join1{
+        background-position: 0 0;
+    }
+    .join2{
+        background-position: -108px 0;
+    }
+    .join3{
+        background-position: -216px 0;
+    }
+    .join4{
+        background-position: -324px 0;
+    }
+    .join5{
+        background-position: -432px 0;
+    }
+    .join6{
+        background-position: -540px 0;
+    }
+
+    .join1:hover{
+        background-position: 0 0;
+    }
+    .join2:hover{
+        background-position: -108px 0;
+    }
+    .join3:hover{
+        background-position: -216px 0;
+    }
+    .join4:hover{
+        background-position: -324px 0;
+    }
+    .join5:hover{
+        background-position: -432px 0;
+    }
+    .join6:hover{
+        background-position: -540px 0;
+    }
+
+
+    .require_bottom{
+        padding-top: 0.8rem;
+    }
+    .require_text{
+        width:100%;
+    }
+    .require_text>h4{
+        font-size: 1.2em;
+        color:#444444;
+    }
+    .require_text>p{
+        font-size: 0.5em;
+        line-height: 1rem;
+    }
+    .require_text>p:last-child{
+        margin-top: 1rem;
+    }
+
+
+    /***********************加盟流程部分yangshi **************************/
+    .flow{
+        width:100%;
+    }
+    .section2{
+        overflow: hidden;
+        position: relative;
+        z-index: 2;
+        padding: 0;
+        margin: 0 auto;
+        height: 610px;
+        background-image: url("../img/join-bg.jpg");
+        background-position: 50% 50%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    .section2 .gl {
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: 0.5;
+        filter: alpha(opacity=50);/*IE专属的透明写法*/
+        -moz-opacity: 0.5;
+        -khtml-opacity: 0.5;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+
+    }
+    .section{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width:100%;
+        z-index: 10;
+    }
+    .flow_list{
+        width:60%;
+        margin: 5rem auto;
+        /*border:1px solid red;*/
+    }
+    .flow_top,.flow_bottom,.flow_img{
+        width:100%;
+    }
+    .flow_img{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .flow_img>img{
+        width:100%;
+    }
+    .flow_top>ul{
+        width:100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .flow_bottom>ul{
+        width:100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .flow_top>ul>li,.flow_bottom>ul>li{
+        width:23%;
+        position: relative;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-bottom: 4rem;
+        background: rgba(255,255,255,0.2);
+    }
+    .flow_top>ul>li+li{
+        margin-left: 3rem;
+    }
+    .flow_bottom>ul>li+li{
+        margin-left: 3rem;
+    }
+    .show_h4{
+        color:#ffffff !important;
+    }
+    .flow_top_text{
+        width:100%;
+    }
+    .flow_top_text>h6{
+        font-size: 0.9em;
+        color:#ffffff;
+        font-weight: 200;
+        margin-top: 0.5rem;
+    }
+    .flow_top_text>p{
+        font-size: 0.5em;
+        color:#ffffff;
+        margin-top: 0.5rem;
+    }
+    .flow_more{
+        width:1.5rem;
+        line-height: 1.5rem;
+        background: #D71F3F;
+        color:#ffffff;
+        font-size: 1.5em;
+        text-align: center;
+        position: absolute;
+        bottom:0;
+        right:0;
+    }
+
+
+
+
+    /**********************门店展示部分样式*******************************/
+    /**********插件部分样式***********/
+    #certify {
+        position: relative;
+        width: 1200px;
+        margin: 0 auto
+    }
+
+    #certify .swiper-container {
+        padding-bottom: 60px;
+    }
+
+    #certify  .swiper-slide {
+        width: 510px;
+        height: 287px;
+        background: #fff;
+        border: 5px solid #B6B6B6;
+        box-shadow: 0 8px 30px #ddd;
+    }
+    #certify  .swiper-slide img{
+        display:block;
+        width: 100%;
+    }
+    #certify  .swiper-slide p {
+        line-height: 98px;
+        padding-top: 0;
+        text-align: center;
+        color: #636363;
+        font-size: 1.1em;
+        margin: 0;
+    }
+
+    #certify .swiper-pagination {
+        width: 100%;
+        bottom: 20px;
+    }
+
+    #certify .swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 5px;
+        border: 3px solid #fff;
+        background-color: #d5d5d5;
+        width: 10px;
+        height: 10px;
+        opacity: 1;
+    }
+
+    #certify .swiper-pagination-bullets .swiper-pagination-bullet-active {
+        border: 3px solid #00aadc;
+        background-color: #fff;
+    }
+
+    #certify .swiper-button-prev {
+        left: 45%;
+        width: 45px;
+        height: 45px;
+        background: url("../img/j-btn_01.png") no-repeat center center;
+        /*background-position: 0 0;*/
+        background-size: 100%;
+    }
+
+    #certify .swiper-button-prev:hover {
+        /*background-position: 0 -46px;*/
+        background: url("../img/j-btn_04.png") no-repeat center center;
+        background-size: 100%;
+        z-index: 1;
+    }
+
+    #certify .swiper-button-next {
+        right: 45%;
+        width: 45px;
+        height: 45px;
+        background: url("../img/j-btn_02.png") no-repeat center center;
+        /*background-position: 0 -93px;*/
+        background-size: 100%;
+    }
+
+    #certify .swiper-button-next:hover {
+        /*background-position: 0 -139px;*/
+        background: url("../img/j-btn_03.png") no-repeat center center;
+        background-size: 100%;
+        z-index: 1;
+    }
+
+
+    .shop_list{
+        width:100%;
+        padding-top: 3rem;
+        /*padding-bottom: 2rem;*/
+    }
+
+
+    /*******************在线加盟部分样式*******************************/
+    .online{
+        width:100%;
+    }
+    .line_all{
+        width:70%;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+        /*border: 1px solid red;*/
+    }
+    .line_all{
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+    .line_left,.line_right{
+        width:47%;
+        /*border: 1px solid red;*/
+    }
+    .line_left{
+        text-align: right;
+    }
+    .line_right{
+        text-align: left;
+    }
+    .line_input{
+        width:100%;
+    }
+    .line_img{
+        width:80%;
+    }
+    .line_input>div>input{
+        width:80%;
+        line-height: 2rem;
+        padding-left: 0.2rem;
+        font-size: 0.8em;
+        border: 1px solid #DBD6CF;
+        outline: none;
+    }
+    .line_input>div:nth-child(2)>input{
+        margin-top: 2rem;
+    }
+    .line_input>div>input::placeholder{
+        font-size: 0.8em;
+        padding-left: 0.2rem;
+    }
+    .line_input>div>textarea{
+        max-width: 80%;
+        min-width: 80%;
+        max-height: 5rem;
+        min-height: 5rem;
+        padding-left: 0.2rem;
+        padding-top: 0.5rem;
+        font-size: 1em;
+        border: 1px solid #DBD6CF;
+        outline: none;
+        margin-top: 2rem;
+    }
+    .line_input>div>textarea::placeholder{
+        padding-left: 0.2rem;
+        font-size: 0.8em;
+    }
+    .line_input>div>button{
+        width:11rem;
+        line-height: 2.5rem;
+        background:#D71F3F;
+        border: none;
+        outline: none;
+        font-size: 1em;
+        color:#ffffff;
+        cursor: pointer;
+        margin-top: 2rem;
+    }
+
+
+/**********提交信息部分提示文字样式**************/
+.msg{ font-size: 13px; }
+.onError{ color: red; }
+.high{ color: red; }
+.onSuccess{ color: green; }
+
+
+
+
+
+@media screen and (min-width: 750px) and (max-width: 1200px){
+    .streamer {
+        background: url(../img/ban_j.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    /***************营销优势****************/
+    .advantage, .advantage_list {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .li_one {
+        width: 48%;
+    }
+    .li_two {
+        width: 48%;
+        padding-left: 2rem;
+    }
+    .advantage_img>img {
+        width: 100%;
+        height: auto;
+    }
+    .advantage_img {
+        width: 100%;
+    }
+
+    /************品牌优势*************/
+    .brand_text, .brand_ul {
+        width: 80%;
+    }
+    .brand_ul>li {
+        width: 20%;
+    }
+    .brand_ul>li>img{
+        width:100%;
+    }
+
+    /***********市场活动*************/
+    .activity {
+        padding-top: 1rem;
+    }
+    .activity_list {
+        width: 80%;
+        /*margin: 2rem auto;*/
+    }
+    .box {
+        width: 37rem;
+        /*/!* height: 100px; *!/*/
+        /*position: relative;*/
+        /*margin: 0 auto;*/
+        overflow: hidden;
+    }
+    .box>.next, .box>.prev {
+        width: 2rem;
+        line-height: 2rem;
+        /*border-radius: 50%;*/
+        /*background: #DBDBDB;*/
+    }
+
+    /**************加盟要求****************/
+    .require_list>ul {
+        width: 80%;
+        /*margin: 0 auto;*/
+        /*display: flex;*/
+        /*justify-content: space-between;*/
+        flex-wrap: wrap;
+        /* border: 1px solid red; */
+    }
+    .require_list>ul>li {
+        width: 30%;
+        margin-top: 2rem;
+    }
+
+   /**************加盟流程*******************/
+    .flow_list {
+        width: 80%;
+        margin: 5rem auto;
+        /* border: 1px solid red; */
+    }
+    .flow_img>img {
+       width:100%;
+    }
+
+    /**************门店展示*********************/
+    .shop{
+        display:none;
+    }
+
+    /***************在线加盟*********************/
+    .idea_title {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .line_all {
+        width: 80%;
+    }
+    .line_left, .line_right {
+        width: 48%;
+        /* border: 1px solid red; */
+    }
+    .line_img {
+        width: 100%;
+    }
+    .line_img>img {
+        width: 100%;
+    }
+    .line_input {
+        width: 100%;
+    }
+    .line_input>div>input {
+        width: 100%;
+    }
+    .line_input>div>textarea {
+        max-width: 100%;
+        min-width: 100%;
+        max-height: 5rem;
+        min-height: 5rem;
+        margin-top: 1rem;
+    }
+    .line_input>div>button {
+        margin-top: 1rem;
+    }
+    .line_input>div:nth-child(2)>input {
+        margin-top: 1rem;
+    }
+}
+
+
+
+
+
+@media screen and (min-width:320px) and (max-width: 749px){
+    .streamer {
+        background: url(../img/ban_j.jpg) no-repeat center center;
+        /*background-size: cover;*/
+    }
+    /*****************营销优势部分**********************/
+    .idea_top {
+        margin-top: 2rem;
+    }
+    .idea_title {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .advantage, .advantage_list {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .advantage>p {
+        font-size: 1.2em;
+        color: #D71F3F;
+    }
+    .advantage_list>ul {
+        /*width: 100%;*/
+        /*display: flex;*/
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 2rem;
+        padding-bottom: 2.5rem;
+    }
+    .advantage_list>ul>li+li{
+        margin-top: 2rem;
+    }
+    .li_one {
+        width: 90%;
+    }
+    .li_two {
+        width: 90%;
+        padding-left: 0rem;
+    }
+    .advantage_text1>h3 {
+        font-size: 1.5em;
+    }
+    .advantage_img {
+        width: 100%;
+        text-align: center;
+    }
+    .advantage_img>img {
+        width: 80%;
+        height: auto;
+    }
+
+    /******************品牌优势*************************/
+    .brand_logo {
+        padding-bottom: 2rem;
+    }
+    .brand_text, .brand_ul {
+        width: 90%;
+        margin: 0rem auto;
+    }
+    .brand_ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        /*margin-top: 2rem;*/
+        /*margin-bottom: 4rem;*/
+    }
+    .brand_ul>li {
+        width: 48%;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .brand_ul>li:nth-child(1), .brand_ul>li:nth-child(2), .brand_ul>li:nth-child(3), .brand_ul>li:nth-child(4), .brand_ul>li:nth-child(5) {
+        border-right: none;
+    }
+
+
+    /*******************市场活动部分*************************/
+    .activity {
+        padding-top: 2rem;
+    }
+    .activity_list{
+        display:none;
+    }
+
+    .activity_hidden{
+        display:block;
+        width:100%;
+        margin: 2rem auto;
+    }
+    /*********插件样式*********/
+    .box2 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .box_list2{
+        width:80%;
+        margin: 0 auto !important;
+    }
+
+    .roll{
+        width: 100%;
+        text-align: center;
+        display:flex;
+        justify-content:flex-start;
+        flex-wrap: wrap;
+        /*height: 22rem;*/
+    }
+    .roll dd{
+        width: 80%;
+        margin: 2rem auto;
+        /*height: 98px;*/
+        /*float: left;*/
+        /*padding-right: 1rem;*/
+        /*padding-left: 1rem;*/
+    }
+    .roll dd:hover #roll dd>img{
+        box-shadow: 0px 0px 18px 0px;
+        transform: translateY(0.5);
+        transition: all 0.5s ease;
+    }
+    .roll dd>img{
+        width:100%;
+    }
+
+    .roll dd>p{
+        font-size: 0.9em;
+        color:#333333;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background: #ffffff;
+        padding-left: 1rem;
+    }
+    .box2 span{
+        position: absolute;
+        bottom: -26%;
+        left:42%;
+        display: inline-block;
+        width: 50px;
+        text-align: center;
+        cursor: pointer;
+        z-index: 90;
+        color: #fff;
+        transition: all 0.5s ease;
+    }
+    .box2 span:hover{
+        background: #D7203F;
+        transition: all 0.5s ease;
+    }
+    .box2>.next,.box>.prev{
+        width:3rem;
+        line-height: 3rem;
+        border-radius: 50%;
+        background: #DBDBDB;
+    }
+    .box2 >.prev>img{
+        margin-top: -0.4rem;
+    }
+    .box2>.next>img{
+        transform: rotate(180deg);
+    }
+    .box2 .next{
+        right: 42%;
+        left:auto;
+    }
+
+    /*******************加盟要求************************/
+    .require_list>ul>li {
+        width: 44%;
+        margin-top: 1.5rem;
+    }
+    .require_list>ul {
+        /*width: 80%;*/
+        /*margin: 0 auto;*/
+        /*display: flex;*/
+        /*justify-content: space-between;*/
+        flex-wrap: wrap;
+    }
+
+
+    /**********************加盟流程***************************/
+    .flow_list {
+        width: 80%;
+        margin: 0rem auto;
+    }
+    .flow_bottom{
+        display:none;
+    }
+    .flow_img {
+        display: none;
+    }
+    .flow_top>ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .flow_top>ul>li{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .flow_top>ul>li+li {
+        margin-left: 0rem;
+    }
+
+
+    /*******************门店展示**************************/
+    .shop{
+        display:none;
+    }
+
+
+    /*********************在线加盟************************/
+    .line_all {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .line_left {
+         text-align: center;
+    }
+    .line_left, .line_right {
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    .line_input>div>input {
+        width: 100%;
+    }
+    .line_input>div>textarea {
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .line_img {
+       display:none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+/*********************************媒体查询样式***********************************************/
+
+    .content{
+        width:100%;
+    }
+    .large_banners{
+        width:100%;
+        height:25rem;
+        background: url("../img/ban.jpg") no-repeat center center;
+        background-size: cover;
+    }
+    .introduction{
+        width:100%;
+        padding-top: 6rem;
+        padding-bottom: 4rem;
+    }
+    .introduction_title,.introduction_list{
+        width:60%;
+        margin: 0 auto;
+        /*border:1px solid red;*/
+    }
+    .introduction_title>h3{
+        font-size: 2em;
+        line-height: 1.5rem;
+        letter-spacing: 5px;
+        text-align: center;
+    }
+    .introduction_text{
+        width:100%;
+        padding-top: 1.5rem;
+        padding-bottom: 5rem;
+    }
+    .introduction_text>p{
+        font-size: 0.8em;
+        color:#555555;
+        line-height: 1.5rem;
+        margin-top: 2rem;
+    }
+    .introduction_list>ul{
+        width:100%;
+        display:flex;
+        justify-content: space-between;
+        /*border:1px solid red;*/
+    }
+    .introduction_list>ul+ul{
+        margin-top: 4rem;
+    }
+    .introduction_list>ul>li{
+        width:31%;
+        text-align: center;
+        overflow: hidden;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        cursor: pointer;
+    }
+    .introduction_img>img{
+        width:100%;
+    }
+    .introduction_list>ul>li>p{
+        font-size: 1em;
+        color:#555555;
+        padding-top: 1.5rem;
+    }
+
+
+
+
+
+
+@media screen and (min-width: 750px) and (max-width: 1200px){
+    .large_banners {
+        background: url(../img/ban_j.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    .introduction {
+        /*width: 100%;*/
+        padding-top: 3rem;
+        /*padding-bottom: 4rem;*/
+    }
+    .introduction_title, .introduction_list {
+        width: 90%;
+        margin: 0 auto;
+        /* border: 1px solid red; */
+    }
+    .introduction_text {
+        /*width: 100%;*/
+        /*padding-top: 1.5rem;*/
+        padding-bottom: 4rem;
+    }
+}
+
+
+
+
+
+@media screen and (min-width:320px) and (max-width: 749px){
+    .large_banners {
+        background: url(../img/ban_j.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    .introduction {
+        /*width: 100%;*/
+        padding-top: 3rem;
+        /*padding-bottom: 4rem;*/
+    }
+    .introduction_title, .introduction_list {
+        width: 80%;
+        margin: 0 auto;
+        /* border: 1px solid red; */
+    }
+    .introduction_list>ul {
+        /*width: 100%;*/
+        /*display: flex;*/
+        /*justify-content: space-between;*/
+        flex-wrap: wrap;
+        /* border: 1px solid red; */
+    }
+    .introduction_list>ul>li {
+        width: 100%;
+        /*text-align: center;*/
+        /*overflow: hidden;*/
+        /*border-top-left-radius: 5px;*/
+        /*border-top-right-radius: 5px;*/
+        /*cursor: pointer;*/
+        margin-top: 3rem;
+    }
+    .introduction_list>ul+ul {
+        margin-top: 0rem;
+    }
+    .introduction_text {
+        /*width: 100%;*/
+        /*padding-top: 1.5rem;*/
+        padding-bottom: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,204 @@
+@charset "utf-8";
+/*********************************媒体查询样式***********************************************/
+    #footer{
+        width:100%;
+    }
+    .footer{
+        width:100%;
+    }
+    .footer_top,.footer_bottom{
+        width:100%;
+    }
+    .footer_top{
+        background: #ffffff;
+    }
+    .footer_bottom{
+        background: #F5F5F5;
+    }
+    .footer_top>ul{
+        width:60%;
+        display:flex;
+        display:-ms-flex;
+        justify-content: space-around;
+        margin: 0 auto;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        border-top: 1px solid #E5E5E5;
+    }
+    .footer_top>ul>li>h5{
+        font-size: 0.8em;
+        color:#6A6666;
+        margin-bottom: 1rem;
+    }
+    .footer_top>ul>li>a{
+        display:block;
+        text-decoration: none;
+        font-size: 0.7em;
+        color:#999999;
+        line-height: 1.5rem;
+    }
+    .footer_under{
+        width:60%;
+        display:flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: left;
+        /*border: 1px solid red;*/
+    }
+
+    .footer_under>li>p{
+        font-size: 0.7em;
+        color:#999999;
+        line-height: 1.5rem;
+    }
+    .footer_li>.all_count{
+        font-size: 1em;
+        color:#999999;
+        margin: 0;
+        letter-spacing: 5px;
+    }
+    .footer_li>.all_count{
+        margin-top: 1.5rem;
+    }
+
+    .footer_li>.all_phone{
+        font-size: 1.5em;
+        color:#D7203F;
+        margin: 0;
+        font-weight: bold;
+    }
+
+
+    /*************悬浮在线留言和在线客服***********/
+    .body{
+        position: relative;
+    }
+    .leave_service{
+        width:5.7rem;
+        position: fixed;
+        right:0;
+        bottom:205px;
+        z-index: 1000;
+        overflow: hidden;
+        /*border:1px solid yellowgreen;*/
+    }
+    .leave,.service{
+        width:11.4rem;
+        /*height:100%;*/
+        margin-left: -6rem;
+        transition: all 0.3s linear;
+        cursor: pointer;
+    }
+    .leave:hover{
+        margin-left: 0rem;
+        transition: all 0.3s linear;
+    }
+    .service:hover{
+        margin-left: 0rem;
+        transition: all 0.3s linear;
+    }
+    .service{
+        margin-top: 0.2rem;
+    }
+
+
+
+
+@media screen and (min-width: 750px) and (max-width: 1200px){
+    .footer_top>ul {
+        width: 90%;
+        /*display: flex;*/
+        /*justify-content: space-around;*/
+        /*margin: 0 auto;*/
+        /*padding-top: 2.5rem;*/
+        /*padding-bottom: 2.5rem;*/
+        /*border-top: 1px solid #E5E5E5;*/
+    }
+    .footer_bottom {
+         padding-top: 0rem;
+         padding-bottom: 0rem;
+    }
+    .footer_under {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        /* margin: 0 auto; */
+        /* padding-top: 2rem; */
+        /* padding-bottom: 2rem; */
+        text-align: left;
+    }
+}
+
+
+
+
+
+@media screen and (min-width:320px) and (max-width: 749px){
+    .footer_top>ul {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        /*margin: 0 auto;*/
+        /*padding-top: 2.5rem;*/
+        /*padding-bottom: 2.5rem;*/
+        /*border-top: 1px solid #E5E5E5;*/
+    }
+    .footer_top>ul>li>h5 {
+        font-size: 0.5em;
+        /*color: #6A6666;*/
+        /*margin-bottom: 1rem;*/
+    }
+    .footer_top>ul>li>a {
+        /*display: block;*/
+        /*text-decoration: none;*/
+        font-size: 0.4em;
+        /*color: #999999;*/
+        /*line-height: 1.5rem;*/
+    }
+    .footer_bottom{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .footer_under {
+        width: 90%;
+        display: unset;
+        justify-content: center;
+        /*margin: 0 auto;*/
+        /*padding-top: 2rem;*/
+        /*padding-bottom: 2rem;*/
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

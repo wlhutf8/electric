@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*初始化css样式*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	color:#666666;
+	font-family: "Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",Helvetica,tahoma,arial,Verdana,sans-serif,"WenQuanYi Micro Hei","\5B8B\4F53";
+	background-color:#ffffff !important;
+}
+body,ul,ol,li,p,dl,dd,dt,h1,h2,h3,h4,h5,h6,th,td{
+	margin:0;
+	padding:0;
+}
+img{
+	border:none;
+	vertical-align:middle;
+}
+ul,ol,li{
+	list-style:none;
+}
+input,button{
+	outline:none;
+	margin:0;
+	padding:0;
+}
+a:link{
+	text-decoration:none;
+	color:#000;
+}
+a:visited{
+	text-decoration:none;
+	color:#000;	
+}
+a:hover{
+	text-decoration:underline;
+	color: #018dd2;
+}

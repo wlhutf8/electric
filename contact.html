@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="x-ua-compatible" content="IE=EmulateIE9" >
+    <meta http-equiv="x-ua-compatible" content="IE=EmulateIE8" >
+    <meta http-equiv="x-ua-compatible" content="IE=EmulateIE7" >
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=Et9ggIiRldSNEZnCDFZHCuBvlfaKGKqm"></script>
+    <title>联系我们</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/base.js"></script>
+    <script src="js/header.js"></script>
+
+</head>
+<body>
+    <!--导航栏部分-->
+    <div id="header"></div>
+
+
+    <div class="contact">
+        <div class="contact_map">
+            <!--应用百度地图显示部分-->
+            <div class="map" id="contact_map"></div>
+
+            <div class="dimension_code">
+                <div class="contact_me">
+                    <h3>联系我们</h3>
+                </div>
+                <div class="company">
+                    <div class="company_left">
+                        <h5>中山市家丽雅电气有限公司</h5>
+                        <p>公司地址:中山市东凤镇同乐工业园99号6栋</p>
+                        <p>联系电话:0760-22786050</p>
+                        <p>服务热线:400-882-2121</p>
+                        <p class="company_p">
+                            <span><img src="img/a2.png" alt=""></span>
+                            <span><img src="img/a2.png" alt=""></span>
+                            <span><img src="img/a2.png" alt=""></span>
+                            <span><img src="img/a2.png" alt=""></span>
+                            <span><img src="img/a2.png" alt=""></span>
+                            <span><img src="img/a2.png" alt=""></span>
+                        </p>
+                    </div>
+
+                    <div class="company_right">
+                        <img src="img/index4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact_leave">
+            <div class="contact_leave_top">
+                <h3>在线留言板</h3>
+                <p>在线留言</p>
+            </div>
+
+            <form class="contact_leave_input">
+                <div class="input_one">
+                    <div class="input_two">
+                        <p>姓名:</p>
+                        <input type="text" placeholder="请填写您的姓名" class="required" id="name_input"/><br>
+                    </div>
+                    <div class="input_two">
+                        <p>电话:</p>
+                        <input type="text" placeholder="请填写您的电话" class="required" id="phone_input"/><br>
+                    </div>
+                </div>
+
+                <div class="text">
+                    <p>内容:</p>
+                    <textarea name="content" rows="10" cols="30" maxlength="200" placeholder="请填写留言"></textarea>
+                </div>
+
+                <div class="btn">
+                    <button type="submit" id="send">提交</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!--底部部分-->
+    <div id="footer"></div>
+</body>
+
+
+<script src="js/contact.js"></script>
+</html>
